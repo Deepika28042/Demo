@@ -1,0 +1,121 @@
+body{
+    background: #b01e93;
+background: radial-gradient(circle, rgba(176, 30, 147, 1) 30%, rgba(56, 40, 44, 1) 94%);
+}
+
+.tag{
+    background-color: transparent;
+    width: 1320px;
+    height: 50px;
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 0 4px 20px rgba(6, 6, 6, 0.589);
+    border-radius: 20px;
+    margin-top: 20px;
+    
+    .a{
+        display: flex;
+        align-items: center;
+        width:40%;
+        
+        img{
+            width:  50px;
+            height: 50px;
+            border: 15px;
+            padding: 20px;
+            
+        }
+
+        .c{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: inherit;
+            font-weight: bold;
+            color: rgb(237, 96, 207);
+            font-size: 30px;
+            
+        }
+    }
+
+
+    .b{
+        display: flex;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: inherit;
+        width: 60%;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+}
+
+.par1{
+    
+    width: 961px;
+    height: 385px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(6, 6, 6, 0.589);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 197px;
+    
+
+    .par2{  
+            margin-top: 34px;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: inherit;
+            font-weight: bold;
+            color: rgb(237, 96, 207);
+            font-size: 20px;
+        }
+    
+
+    .par3{
+            margin-top: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: inherit;
+            font-weight: bold;
+            color: rgb(237, 96, 207);
+            font-size: 70px;
+        }
+    
+    .par4{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: inherit;
+            font-weight: bold;
+            color: rgb(186, 176, 176);
+            font-size: 15px;
+            padding: 20px;
+            margin-top: -18px;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-evenly;
+    
+
+    .mai1{
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: inherit;
+        font-weight: bold;
+        color: rgb(237, 96, 207); 
+        font-size: 30px; 
+        box-shadow: 0 4px 20px rgba(6, 6, 6, 0.589);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #infin{
+        font-size: 60px ;
+    }
+}
